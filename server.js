@@ -12,5 +12,5 @@ app.get('*', function(req, res) {
 });
 
 var port = 3030;
-app.listener(port);
+app.listen(port);
 console.log('listening on port' + port + '....');
